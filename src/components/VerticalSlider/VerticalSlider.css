@@ -1,0 +1,15 @@
+/* Custom CSS for the vertical slider */
+.vertical-slider {
+    height: 800px; /* Set the desired height for the slider */
+  }
+  
+  .vertical-slider .swiper-wrapper {
+    display: flex;
+    flex-direction: column-reverse; /* Rotate the slides vertically */
+  }
+  
+  .vertical-slider .swiper-slide {
+    width: 500px; /* Set the width of each slide */
+    height: 500px; /* Set the height of each slide */
+  }
+  
